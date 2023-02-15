@@ -1,2 +1,2 @@
 #!/bin/bash
-head 3 iata
+awk"FNK==3{print}"  iata
